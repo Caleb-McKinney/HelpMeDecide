@@ -1,0 +1,141 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #EFF1F3;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #223843;
+  color: #F6F4D2;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #F6F4D2;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #D77A61;
+}
+
+main {
+  padding: 4rem 2rem 2rem;
+  flex: 1;
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+#hero {
+  background-color: #D8B4A0;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+#hero h2 {
+  margin: 0 0 1rem;
+  color: #D77A61;
+}
+
+#introduction {
+  text-align: center;
+}
+
+#introduction h2 {
+  color: #D77A61;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: #DBD3D8;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  display: block;
+  margin-top: 1rem;
+  color: #223843;
+  font-weight: bold;
+}
+
+form input, form select, form textarea, form button {
+  width: 100%;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  border: 2px solid #D8B4A0;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+form input:focus, form select:focus, form textarea:focus {
+  border-color: #F19C79;
+  outline: none;
+}
+
+form button {
+  background-color: #223843;
+  color: #D77A61;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  margin-top: 1rem;
+}
+
+form button:hover {
+  background-color: #F19C79;
+  color: #F6F4D2;
+}
+
+#confirmation {
+  text-align: center;
+  padding: 2rem;
+  background-color: #F6F4D2;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #DBD3D8;
+  color: #F6F4D2;
+  text-align: center;
+  padding: 0.5rem 1rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
